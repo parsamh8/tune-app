@@ -108,7 +108,7 @@
 <body>
   <header class="fade-in" style="animation-delay: 0.5s;">Hello ?</header>
   <main>
-    <img id="main-img" src="public/vhs.gif" alt="Portfolio Image" class="fade-in" style="animation-delay: 1.5s;"/>
+    <img id="main-img" src="assets/vhs.gif" alt="Portfolio Image" class="fade-in" style="animation-delay: 1.5s;"/>
     <button id="play-pause" class="fade-in" style="animation-delay: 2.5s;">Hi</button>
   </main>
   <footer class="fade-in" style="animation-delay: 3.5s;">
@@ -128,7 +128,7 @@
       span.textContent = txt + '   ' + txt;
 
       // Audio setup
-      const audio = new Audio('public/strobe.mp3');
+      const audio = new Audio('assets/strobe.mp3');
       audio.loop = true;
       audio.volume = 0.7;
       audio.play().catch(() => console.warn('Autoplay prevented'));
